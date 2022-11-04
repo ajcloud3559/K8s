@@ -1,0 +1,20 @@
+What is Docker?
+
+Docker is platform for packaging, distribution and the running application.
+
+Three main concepts in a Docker Scenario:
+
+1. Images:- Something we can packaging inside a image such as application.
+2. Registry: It is an repository to store the images. It can be local and remote.
+3. Containers: Run time entinty
+
+# To pull images
+$ sudo docker pull <image_name>
+
+# List docker images
+$ sudo docker images
+
+# Run the container
+<Format> sudo docker run --name <container_name> -p <ExposePort:InternalPort> -d <Image_name>
+Example: $ sudo docker run --name MyNginxWebServerExposed -p 8080:80 -d nginx
+
