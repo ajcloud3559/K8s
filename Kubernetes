@@ -1,0 +1,7 @@
+The terminilogy:
+
+1. Cluster: Collection of Multiple Pods
+2. Pods: Collection of Service and deployments
+3. Deployment: Application deployment on container
+4. Services: Service like Port expose, networking attach to the deployment of an container
+5: Controllerr: Server who is going to manage all the pods and clusters. 
