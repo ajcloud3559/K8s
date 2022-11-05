@@ -5,3 +5,5 @@ The terminilogy:
 3. Deployment: Application deployment on container
 4. Services: Service like Port expose, networking attach to the deployment of an container
 5: Controllerr: Server who is going to manage all the pods and clusters. 
+6. Namespaces: 
+7. Node: 
